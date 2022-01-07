@@ -1,0 +1,110 @@
+body {
+  min-height: 1200px;
+  background-color: black;
+}
+
+/* home */
+.banner {
+  height: 93vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./img/anime-forest-scenery--wallpaper.jpg);
+  background-size: cover;
+  position: center;
+}
+.banner-content {
+  height: 100%;
+  color: rgba(245, 245, 245, 0.795);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text-center {
+  color: rgba(245, 245, 245, 0.76);
+}
+.h1 {
+  color: whitesmoke;
+}
+.col h2 {
+  color: whitesmoke;
+  text-align: center;
+}
+p {
+  color: whitesmoke;
+}
+.fs-1 {
+  color: rgba(173, 216, 230, 0.479);
+}
+/* about */
+.title-lg h2 {
+  color: whitesmoke;
+}
+.title-lg {
+  color: whitesmoke;
+}
+.home {
+  height: 100vh;
+}
+.home .container {
+  height: 100%;
+}
+.home .container .row {
+  height: 100%;
+}
+.social-icon-box li a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: #111;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  line-height: 40px;
+  font-size: 18px;
+  text-align: center;
+  margin-right: 15px;
+}
+.home-profile-pic {
+  position: relative;
+  overflow: hidden;
+  width: 330px;
+  height: 330px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+/* contact */
+label {
+  color: #111;
+  font-family: "Poppins", sans-serif;
+}
+.form-control {
+  background: #f9f9ff;
+}
+.form-control:focus {
+  box-shadow: none;
+  border-color: rgba(0, 0, 0, 0.15);
+}
+.fa-phone {
+  transform: rotate(115deg);
+}
+.icon-box {
+  width: 80px;
+  height: 80px;
+  font-size: 25px;
+  border-radius: 50%;
+  background: #fff;
+  text-align: center;
+  line-height: 80px;
+  order: 5px solid #fff;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.15);
+}
+.media-body h4 {
+  color: rgba(187, 87, 30, 0.904);
+}
+.contact-form h4 {
+  color: white;
+}
+.form-group label {
+  color: white;
+}
+.form-row button {
+  background-color: rgba(187, 87, 30, 0.904);
+}
